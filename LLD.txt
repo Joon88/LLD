@@ -1,0 +1,30 @@
+OOPs SOLID Principles :---
+---------------------
+
+1. S (Single Responsibility Principle) - A class should have only 1 reason to change
+   Recall using : Marker & Invoice example
+
+2. O (Open/Closed Principle) - Open for extension but closed for modification i.e. do not modify already existing
+   classes that are tested and running in Prod. Instead, extend them to add new features if required.
+   Recall using : Invoice class example, where we can have a Invoice interface and InvoiceSaveDB, InvoiceSaveCOS, etc
+   can implement the Invoice interface and do their own implementation of the save() function.
+
+3. L (Liskov Substitution Principle) - If class B is a subtype of class A, then we should be able to replace object
+   of A with B without breaking the behaviour of the program. i.e. Subclass should extend the capability of the parent
+   and not narrow it down.
+   Recall using : Bike class, MotorCycle and Bicycle subclass with startEngine() function
+
+4. I (Interface Segmented Principle) - Interfaces should be such, that client should not implement unnecessary
+   functions that they do not need. i.e. Divide interfaces to minimalistic forms.
+   Recall Using : RestaurantInterface being fragmented to WaiterInterface, ChefInterface, HelperInterface, etc.
+
+5. D (Dependency Inversion Principle) - Class should depend on interface rather than concrete class.
+   Recall Using : Keyboard interface and WiredKeyboard concrete class.
+
+SOLID Principles help with below :
+- Avoid duplicate code
+- Easy to maintain
+- Easy to understand
+- Flexible software
+- Reduce complexity
+
