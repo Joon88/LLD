@@ -1,6 +1,5 @@
 package me.sajid.practice.parkingLot;
 
-import me.sajid.practice.parkingLot.parkingSpot.PSManager;
 import me.sajid.practice.parkingLot.parkingSpot.ParkingSpot;
 import me.sajid.practice.parkingLot.pricing.PricingStrategy;
 
