@@ -1,5 +1,6 @@
 package me.sajid.chainOfResponsibilityDP.handler;
 
+// this can be a normal class as well
 public abstract class LogHandler {
     public static int INFO = 1;
     public static int DEBUG = 2;
